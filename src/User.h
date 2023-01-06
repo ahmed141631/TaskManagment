@@ -1,6 +1,8 @@
 #ifndef USER_H
 #define USER_H
 #include<iostream>
+#include "Task.h"
+using namespace std;
 
 
 #pragma once
@@ -17,9 +19,9 @@ public:
     string getUserName();
     string getpassword();
 protected:
-   
     string username;
     string password;
+    
 };
 
 #endif

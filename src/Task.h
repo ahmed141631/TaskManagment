@@ -12,8 +12,15 @@ class Task
 public:
     Task();
     ~Task();
+    void setTaskName(string taskName);
+    void setTaskcontent(string taskContent);
+    string getTaskcontent();
+    string TaskName();
     
-
+    time_t getStartTime(); 
+    void setEndTime(time_t startTime);
+    time_t getEndTime();
+    time_t getleftTime();
 
 protected:
     string TaskName ;

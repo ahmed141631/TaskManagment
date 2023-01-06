@@ -16,7 +16,7 @@ public:
     void setTaskcontent(string taskContent);
     string getTaskcontent();
     string TaskName();
-    
+    time_t setStartTIME();
     time_t getStartTime(); 
     void setEndTime(time_t startTime);
     time_t getEndTime();

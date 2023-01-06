@@ -8,9 +8,7 @@ Task::Task()
 
 }
 
-Task:: void setStarTime(){
 
-}
 
 Task::~Task()
 {

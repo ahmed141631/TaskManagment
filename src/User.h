@@ -1,5 +1,6 @@
 #ifndef USER_H
 #define USER_H
+#include<list>
 #include<iostream>
 #include "Task.h"
 using namespace std;
@@ -21,6 +22,8 @@ public:
 protected:
     string username;
     string password;
+    list<Task> tasks;
+
     
 };
 

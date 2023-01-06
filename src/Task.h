@@ -16,8 +16,9 @@ public:
     void setTaskcontent(string taskContent);
     string getTaskcontent();
     string TaskName();
-    time_t setStartTIME();
-    time_t getStartTime(); 
+    void setStarTime();
+    /* i will return the start time as str not date*/
+    string getStartTime(); 
     void setEndTime(time_t startTime);
     time_t getEndTime();
     time_t getleftTime();

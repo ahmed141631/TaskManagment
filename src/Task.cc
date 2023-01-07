@@ -28,7 +28,16 @@ string Task:: getTaskContent(){
     return this->Taskcontent;
 }
 
-void 
+void Task ::  setStarTime(){
+     this->StartTime=time(0);    
+}
+
+string Task:: getStartTime(){
+    return ctime(&this->StartTime);
+
+}
+
+
 
 Task::~Task()
 {

@@ -23,6 +23,7 @@ public:
     void setEndTime(time_t startTime);
     time_t getEndTime();
     time_t getleftTime();
+    /* i feel that these two methods should be in user class*/
     void DeleteTask();
     void EditTask();
 

@@ -23,6 +23,7 @@ protected:
     string username;
     string password;
     list<Task> tasks;
+    
 
     
 };

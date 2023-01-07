@@ -22,6 +22,8 @@ public:
     void setEndTime(time_t startTime);
     time_t getEndTime();
     time_t getleftTime();
+    void DeleteTask();
+    void EditTask();
 
 protected:
     string TaskName ;

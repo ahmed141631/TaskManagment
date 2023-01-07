@@ -8,7 +8,27 @@ Task::Task()
 
 }
 
+Task:: Task(string taskName,string taskcontent){
+    this->TaskName = taskName;
+    this->Taskcontent = taskcontent;
+}
 
+Task:: setTaskName(string taskName){
+    this->TaskName = taskName;
+}
+
+Task:: setTaskcontent(string taskcontent){
+    this->Taskcontent = taskcontent;
+}
+
+string Task:: getTaskName(){
+    return this->TaskName;
+}
+string Task:: getTaskContent(){
+    return this->Taskcontent;
+}
+
+void 
 
 Task::~Task()
 {

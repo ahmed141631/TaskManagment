@@ -11,11 +11,12 @@ class Task
 {
 public:
     Task();
+    Task(string taskName,string taskcontent);
     ~Task();
     void setTaskName(string taskName);
     void setTaskcontent(string taskContent);
     string getTaskcontent();
-    string TaskName();
+    string getTaskName();
     void setStarTime();
     /* i will return the start time as str not date*/
     string getStartTime(); 
